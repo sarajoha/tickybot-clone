@@ -1,0 +1,11 @@
+.blue-background {
+  background-color: #55c0ec;
+}
+
+.green-background {
+  background-color: #99d394;
+}
+
+body {
+  color: rgba(0,0,0,.75);
+}
