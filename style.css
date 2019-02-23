@@ -6,6 +6,60 @@
   background-color: #99d394;
 }
 
+.grayblue-background {
+  background-color: #537492;
+}
+
 body {
-  color: rgba(0,0,0,.75);
+  color: #383838;
+  font-family: Signika, Roboto, Helvetica;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+a:link, a:visited {
+  color: #ffdb58;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-padding {
+  font-size: 20px;
+  margin: -10px;
+  padding: 20px 10px 20px 10px;
+
+}
+
+h1 {
+  color: #537492;
+  font-size: 65px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.padding-left {
+  padding-left: 50px;
+}
+
+.red-text {
+  color: #bf0000;
 }
