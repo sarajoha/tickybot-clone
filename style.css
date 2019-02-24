@@ -3,11 +3,11 @@
 }
 
 .green-background {
-  background-color: #99d394;
+  background-color: #90ddaa;
 }
 
 .grayblue-background {
-  background-color: #537492;
+  background-color: #40596b;
 }
 
 body {
@@ -15,9 +15,24 @@ body {
   font-family: Signika, Roboto, Helvetica;
 }
 
+.flex-sa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .center {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  padding: 40px 0 0 0;
 }
 
 a:link, a:visited {
@@ -32,34 +47,50 @@ a:hover {
 
 .menu-padding {
   font-size: 20px;
-  margin: -10px;
-  padding: 20px 10px 20px 10px;
+  margin: 0;
+  padding: 15px 460px 15px 460px;
+}
 
+.home-container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 20px 50px 60px;
 }
 
 h1 {
   color: #537492;
-  font-size: 65px;
+  font-size: 70px;
   font-weight: 300;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 300;
 }
 
-p {
+.p-font {
   font-size: 20px;
 }
 
-.flex {
-  display: flex;
-}
-
-.padding-left {
-  padding-left: 50px;
+.about-container {
+  padding: 15px 10px 30px 50px;
 }
 
 .red-text {
   color: #bf0000;
+}
+
+.smaller-image {
+  width: 30px;
+}
+
+.footer-style {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 15px 0 15px 0;
 }

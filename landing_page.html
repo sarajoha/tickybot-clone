@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Signika:300" rel="stylesheet">
   <title>TickyBot - Your Support Ticket Slack Bot</title>
-<!--
-  <div class="center darkblue-background">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#">Add to Slack</a>
-
-  </div>
--->
 </head>
 
 <body>
-  <div class="center grayblue-background menu-padding">
+  <div class="flex-sa grayblue-background menu-padding">
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#features">Features</a>
     <a href="https://chingu-prework.slack.com/oauth/559848241895.f52724d042497f7b19823cac31934ffb5e367deac87d7309b116299316741ff5">Add to Slack</a>
   </div>
 
-  <div class="blue-background" id="home">
-    <h1><b>Ticky</b>Bot</h1>
-    <p style="color: white;" class="light-font"> Let your team manage their support tickets<br>
+  <div class="blue-background home-container" id="home">
+    <div>
+      <h1><b>Ticky</b>Bot</h1>
+      <p style="color: white; font-size: 25px" class="light-font"> Let your team manage their support tickets<br>
       100% inside Slack</p>
-    <button type="button">Add to Slack</button>
+      <a class="btn btn-light btn-lg" style="color: #383838;" href="https://chingu-prework.slack.com/oauth/559848241895.f52724d042497f7b19823cac31934ffb5e367deac87d7309b116299316741ff5" role="button">
+      <img src="https://tickybott.herokuapp.com/5e594ad76535670e7f227f79c6b72799.svg" alt="" class="smaller-image">Add to <b>Slack</b></a>
+    </div>
+    <div>
+      <!-- Robot svg goes here -->
+    </div>
   </div>
 
-  <div id="about" class="padding-left">
+  <div id="about">
     <h2 class="center">What Is <b>Ticky</b>Bot</h2>
-  <div class="flex">
-    <div>
-      <p><b>Ticky</b>Bot is a Slack Bot 🤖 that lets you use support tickets on<br>
-      Slack. This way, you don't need to leave your beloved channel to<br>
-      assist your users, if you don't feel like it.</p>
+    <div class="flex-sa p-font">
+      <div>
+        <p><b>Ticky</b>Bot is a Slack Bot 🤖 that lets you use support tickets on<br>
+        Slack. This way, you don't need to leave your beloved channel to<br>
+        assist your users, if you don't feel like it.</p>
+      </div>
+      <div>
+        <p>With <b>Ticky</b>Bot you can easily check if you've received new tickets,<br>
+        change their status, or write a reply, and the ticket will instantly<br>
+        update itself on our site.</p>
+      </div>
     </div>
-    <div>
-      <p>With <b>Ticky</b>Bot you can easily check if you've received new tickets,<br>
-      change their status, or write a reply, and the ticket will instantly<br>
-      update itself on our site.</p>
+    <div class="p-font about-container">
+      <p>Support requests shouldn't be handled through Slack's direct messages.</p>
+      <p style="font-style:italic;">Image about someone asking silly questions and the workplace admin asking him/her to open a support ticket so other admins could<br> look into the issue.</p>
     </div>
-  </div>
-    <p>Support requests shouldn't be handled through Slack's direct messages.</p>
-    <p style="font-style:italic;">Image about someone asking silly questions and the workplace admin asking him/her to open a support ticket so other admins could<br> look into the issue.</p>
   </div>
 
   <div id="features" class="green-background">
     <h2 class="center">How It Works</h2>
-    <div class="flex">
+    <div class="flex-sa p-font">
       <p>You can add <b>Ticky</b>Bot to your Slack workplace by scrolling down or clicking here</p>
       <p>Your users can open a ticket by typing <code class="red-text">/ticket</code> and their message into the chat field</p>
       <p>Once you or another admin solved their problems you can type <code class="red-text">/ticket <br> close #id</code> to close the ticket</p>
@@ -59,10 +60,18 @@
 
   <div>
     <h2 class="center">Start Using <b>Ticky</b>Bot Today</h2>
-    <p><b>Ticky</b>Bot allows Slack teams to manage their support tickets<br>
+    <div class="flex-col p-font">
+      <p><b>Ticky</b>Bot allows Slack teams to manage their support tickets<br>
       100% inside Slack, without having to switch between different apps.</p>
-    <button type="button">Add to Slack</button>
+      <a class="btn btn-dark btn-lg" style="color: white;" href="https://chingu-prework.slack.com/oauth/559848241895.f52724d042497f7b19823cac31934ffb5e367deac87d7309b116299316741ff5" role="button">
+      <img src="https://tickybott.herokuapp.com/5e594ad76535670e7f227f79c6b72799.svg" alt="" class="smaller-image"> Add to <b>Slack</b></a>
     <p>... so you don't need to go back and forth with another app.</p>
+    </div>
+  </div>
 
+  <div  id="footer" class="grayblue-background footer-style flex-col">
+    <div><p>Made with ❤️ by the Chingu Bears 19 team</p></div>
+    <div><p>Source code is available on our <a href="#">GitHub page</a></p></div>
+    <div><p>The app is not created by, affiliated with, or supported by Slack Technologies, Inc.</p></div>
   </div>
 </body>
