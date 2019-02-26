@@ -28,6 +28,12 @@ body {
   justify-content: space-around;
 }
 
+.flex-feat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .center {
   display: flex;
   flex-direction: row;
@@ -48,13 +54,18 @@ a:hover {
 .menu-padding {
   font-size: 20px;
   margin: 0;
-  padding: 15px 460px 15px 460px;
+  padding: 15px 600px 15px 600px;
 }
 
 .home-container {
   display: flex;
   flex-direction: row;
-  padding: 50px 20px 50px 60px;
+  justify-content: space-around;
+  padding: 110px 140px 100px 140px;
+}
+
+.home-inner {
+  text-align: center;
 }
 
 h1 {
@@ -82,6 +93,30 @@ h2 {
 
 .smaller-image {
   width: 30px;
+}
+
+.medium-image {
+  width: 200px;
+}
+
+.inner-card {
+  background-color: white;
+  padding: 15px 15px 10px 25px;
+}
+
+.card-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 650px;
+  padding: 20px 40px 80px 120px;
+}
+
+.card {
+  background-color: #40596b;
+  padding: 30px 70px 50px 50px;
+
 }
 
 .footer-style {

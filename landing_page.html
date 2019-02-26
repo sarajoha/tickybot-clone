@@ -17,7 +17,7 @@
   </div>
 
   <div class="blue-background home-container" id="home">
-    <div>
+    <div class="flex-col home-inner">
       <h1><b>Ticky</b>Bot</h1>
       <p style="color: white; font-size: 25px" class="light-font"> Let your team manage their support tickets<br>
       100% inside Slack</p>
@@ -25,7 +25,7 @@
       <img src="https://tickybott.herokuapp.com/5e594ad76535670e7f227f79c6b72799.svg" alt="" class="smaller-image">Add to <b>Slack</b></a>
     </div>
     <div>
-      <!-- Robot svg goes here -->
+      <img src="tickybot.svg" alt="Tickyboy Robot"><!-- Robot svg goes here -->
     </div>
   </div>
 
@@ -51,10 +51,33 @@
 
   <div id="features" class="green-background">
     <h2 class="center">How It Works</h2>
-    <div class="flex-sa p-font">
-      <p>You can add <b>Ticky</b>Bot to your Slack workplace by scrolling down or clicking here</p>
-      <p>Your users can open a ticket by typing <code class="red-text">/ticket</code> and their message into the chat field</p>
-      <p>Once you or another admin solved their problems you can type <code class="red-text">/ticket <br> close #id</code> to close the ticket</p>
+    <div class="flex-feat p-font">
+      <div class="card-container">
+        <div class="card">
+          <img src="workplace.svg" alt="" class="medium-image">
+        </div>
+        <div class="inner-card">
+          <p>You can add <b>Ticky</b>Bot to your Slack workplace by scrolling down or clicking here</p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="bubble.svg" alt="" class="medium-image center">
+        </div>
+        <div class="inner-card">
+          <p>Your users can open a ticket by typing <code class="red-text">/ticket</code> and their message into the chat field</p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="tasks.svg" alt="" class="medium-image center">
+        </div>
+        <div class="inner-card">
+          <p>Once you or another admin solved their problems you can type <code class="red-text">/ticket <br> close #id</code> to close the ticket</p>
+        </div>
+      </div>
     </div>
   </div>
 
