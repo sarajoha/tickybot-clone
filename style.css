@@ -21,6 +21,13 @@ body {
   justify-content: space-around;
 }
 
+.flex-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20% 0 20%;
+}
+
 .flex-col {
   align-items: center;
   display: flex;
@@ -71,7 +78,7 @@ a:hover {
 h1 {
   color: #537492;
   font-size: 70px;
-  font-weight: 300;
+  font-weight:600;
 }
 
 h2 {
@@ -84,7 +91,10 @@ h2 {
 }
 
 .about-container {
-  padding: 15px 10px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 100px 20px 100px;
 }
 
 .red-text {
@@ -102,6 +112,7 @@ h2 {
 .inner-card {
   background-color: white;
   padding: 15px 15px 10px 25px;
+  text-align: center;
 }
 
 .card-container {
@@ -122,10 +133,17 @@ h2 {
 .footer-style {
   align-items: center;
   color: white;
-  display: flex;
-  flex-direction: column;
   font-size: 13px;
-  justify-content: space-around;
-  margin-top: 30px;
-  padding: 15px 0 15px 0;
+  line-height: 24px;
+  padding: 14px 0 0 0;
+  text-align: center;
+}
+
+u {
+  text-decoration-color: #55c0ec;
+  text-underline-position: under;
+}
+
+* {
+  border: 1px solid red !important;
 }
