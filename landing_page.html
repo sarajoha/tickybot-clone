@@ -94,38 +94,39 @@
       </div>
       
       <!-- Second row -->
-      <div class="row font-20 px-6 justify-content-center">
+      <div class="row font-20 d-flex flex-row flex-wrap row-padding justify-content-between">
 
-          <div class="col-auto w-25">
+          <div class="col h-100 flex-32">
             <!-- <div class="card-deck justify-content-center"> -->
 
-            <div class="card">
-              <div class="card-header grayblue-background">
+            <div class="card h-100 card-border">
+              <div class="card-header card-h grayblue-background">
                 <img src="workplace.svg" alt="" class="medium-image">
               </div>
-              <div class="card-body">
-                <p>You can add <b>Ticky</b>Bot to your Slack workplace by scrolling down or clicking here</p>
+              <div class="card-body card-b">
+                <p>You can add <b>Ticky</b>Bot to your Slack workplace by scrolling down or 
+                  <span><a href='#get-tb'>clicking here</a></span></p>
               </div>
             </div>
           </div>
 
-          <div class='col-auto w-25'>
-            <div class="card">
-              <div class='card-header grayblue-background'>
+          <div class='col h-100 flex-32'>
+            <div class="card h-100 card-border">
+              <div class='card-header card-h grayblue-background'>
                 <img src="bubble.svg" alt="" class="medium-image">
               </div>
-              <div class="card-body">
+              <div class="card-body card-b">
                 <p>Your users can open a ticket by typing <code class="red-text">/ticket</code> and their message into the chat field</p>
               </div>
             </div>
           </div>
           
-          <div class='col-auto w-25'>
-            <div class="card">
-              <div class='card-header grayblue-background'>
+          <div class='col h-100 flex-32 pl-0'>
+            <div class="card h-100 card-border">
+              <div class='card-header card-h grayblue-background'>
                 <img src="tasks.svg" alt="" class="medium-image">
               </div>
-              <div class="card-body">
+              <div class="card-body card-b">
                 <p>Once you or another admin solved their problems you can type <code class="red-text">/ticket <br> close #id</code> to close the ticket</p>
               </div>
             </div>
@@ -140,7 +141,7 @@
     <!-- End of features section -->
 
     <!-- Get tickybot section -->
-    <div class="row">
+    <div class="row" id='get-tb'>
       <div class="col text-center">
         <h2 class='mt-4 mb-5'>Start Us<u>ing <span class='font-weight-bold'>Ticky</span>B</u>ot Today</h2>
           <p class='font-20 mb-6'><b>Ticky</b>Bot allows Slack teams to manage their support tickets<br>

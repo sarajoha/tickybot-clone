@@ -15,17 +15,16 @@ body {
   font-family: Signika, Roboto, Helvetica;
 }
 
-a:link, a:visited {
+nav a:link, nav a:visited {
   color: #ffdb58;
   text-decoration: none;
 
 }
 
-a:hover {
+nav a:hover {
   color: white;
   text-decoration: none;
 }
-
 
 h1 {
   color: #537492;
@@ -64,7 +63,7 @@ h2 {
 }
 
 .medium-image {
-  width: 200px;
+  width: 220px;
 }
 
 u {
@@ -81,10 +80,40 @@ u {
   background-color: #ffdb58
 }
 
+.row-padding {
+  padding: 1rem 12% 0;
+}
+
+.flex-32 {
+  flex: 0 0 32%;
+}
+
+.card-border {
+ border: none;
+ border-radius: .25rem .25rem 0 0;
+}
+
+.card-h {
+  height: 342px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-b {
+  border-radius: 0;
+  flex: 0 0 20%;
+}
+
+span a:link {
+  text-decoration: underline;
+}
+
+/*
 * {
   border: 1px solid red !important;
 } 
-
+*/
 .pt-6,
 .py-6 {
   padding-top: 5rem !important;
